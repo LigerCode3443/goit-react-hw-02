@@ -1,0 +1,21 @@
+.list {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+  margin-top: 20px;
+}
+.item {
+  border: 1px solid brown;
+  border-radius: 10px;
+  min-width: 200px;
+  background-color: lightsalmon;
+  color: black;
+  text-transform: capitalize;
+}
+.item:last-child {
+  background-color: aqua;
+  min-width: 300px;
+}
